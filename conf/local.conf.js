@@ -10,7 +10,10 @@ exports.config = {
     'name': 'local_test',
     'browserName': 'chrome',
     'browserstack.local': true,
-    'browserstack.debug': 'true'
+    'browserstack.debug': 'true',
+    'os_version': "11.0",
+    'device': 'iPhone 8 Plus',
+    'real_mobile': 'true'
   },
 
   // Code to start browserstack local before start of test
